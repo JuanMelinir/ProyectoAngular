@@ -1,0 +1,16 @@
+.nav{
+background-color: #c32728;    
+}
+#navbarNav{
+margin-right: 20px;
+background-color: #27c378;  
+}
+.nav-link{
+color: white; 
+right: 25px;   
+}
+.imageLogo{
+height: 70%;  
+margin-top: 10px;
+margin-left: 15px;
+}
