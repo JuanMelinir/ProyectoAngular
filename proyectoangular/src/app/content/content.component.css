@@ -1,9 +1,12 @@
 .imageCard{
 width:50%;
 }
-.h2{
-color:#c32728;
+h2{
+color:rgb(104, 101, 101);
 }
-.h6{
-color:#c32728;
+h6{
+color:rgb(104, 101, 101);
+}
+.carousel-item{
+text-align: center;    
 }
