@@ -1,0 +1,25 @@
+<div class="containerSalads">
+    <div class="sign"><h6>Sin carne</h6></div>
+    <div *ngFor="let ensalada of ensaladas" >
+        <div *ngIf="ensalada.carne == false" > 
+            <div class="containerSalad">
+                <img class="imageList" src={{ensalada.src}}/>
+                <h5 class="titleSalad">{{ensalada.nombre}}</h5>
+                <p class="details">{{ensalada.descripcion}}</p>
+                <h6>${{ensalada.precio}}</h6>
+            </div>
+        </div>
+    </div>
+        <div class="sign"><h6>Con carne</h6></div>
+        <div *ngFor="let ensalada of ensaladas" >
+        <div *ngIf="ensalada.carne == true" >
+            <div class="containerSalad">
+                <img class="imageList" src={{ensalada.src}}/>
+                <h5 class="titleSalad">{{ensalada.nombre}}</h5>
+                <p class="details">{{ensalada.descripcion}}</p>
+                <h6>${{ensalada.precio}}</h6>
+            </div>
+        </div>
+    </div>
+</div>
+

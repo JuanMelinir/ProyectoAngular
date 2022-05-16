@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
+import { DirectivasComponent } from './directivas/directivas.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { SidemenuComponent } from './sidemenu/sidemenu.component';
     HeaderComponent,
     ContentComponent,
     SidemenuComponent,
+    DirectivasComponent
   ],
   imports: [
     BrowserModule
